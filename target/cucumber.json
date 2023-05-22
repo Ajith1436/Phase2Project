@@ -1,0 +1,644 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 654375800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the swag application",
+            "match": {
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_have_launched_the_swag_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57135900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should land on home page",
+            "match": {
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_should_land_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 133706100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter username as \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 20
+                }
+              ],
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 191809900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 20
+                }
+              ],
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3318984400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I clicked on login button",
+            "match": {
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_clicked_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49236500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should land on dashboard page",
+            "match": {
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_should_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-22T09:49:09.468Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2054168000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SwagStepDefinition.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Validate the products in cart using examples",
+        "description": "",
+        "id": "this-feature-will-be-used-to-validate-the-product-addef-to-cart-in-swaglabs-application;validate-the-products-in-cart-using-examples",
+        "after": [
+          {
+            "result": {
+              "duration": 1168801800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SwagStepDefinition.Hooks.Teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 109948800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I clicked on Product name as \"Sauce Labs Backpack\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 29
+                }
+              ],
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_clicked_on_Product_name_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34907600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should land on Product detail page",
+            "match": {
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_should_land_on_Product_detail_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 68815000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I clicked on add to cart button",
+            "match": {
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_clicked_on_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2125525400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Navigate to cart Page",
+            "match": {
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_Navigate_to_cart_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28874800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Verify Product present in cart Page",
+            "match": {
+              "location": "SwagStepDefinition.SwagLoginSteDefs.verify_Product_present_in_cart_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Browser"
+          }
+        ]
+      }
+    ],
+    "name": "This feature will be used to validate the product addef to cart in SwagLabs Application",
+    "description": "",
+    "id": "this-feature-will-be-used-to-validate-the-product-addef-to-cart-in-swaglabs-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/SwagFeatures/AddToCart.feature",
+    "tags": [
+      {
+        "name": "@Browser",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 417599300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the swag application",
+            "match": {
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_have_launched_the_swag_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48998800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should land on home page",
+            "match": {
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_should_land_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-22T09:49:19.601Z",
+        "before": [
+          {
+            "result": {
+              "duration": 908330400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SwagStepDefinition.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validate the Login success scenario with parameter",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-login-functionality-of-swaglabs-application;validate-the-login-success-scenario-with-parameter",
+        "after": [
+          {
+            "result": {
+              "duration": 218316200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SwagStepDefinition.Hooks.Teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 121674700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter username as \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 20
+                }
+              ],
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97738400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 20
+                }
+              ],
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3264501000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I clicked on login button",
+            "match": {
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_clicked_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47217900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should land on dashboard page",
+            "match": {
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_should_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Browser"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 543910000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the swag application",
+            "match": {
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_have_launched_the_swag_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92064100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should land on home page",
+            "match": {
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_should_land_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-22T09:49:24.748Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1215380500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SwagStepDefinition.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Validate the Login failure scenario using examples",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-login-functionality-of-swaglabs-application;validate-the-login-failure-scenario-using-examples;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 181431600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SwagStepDefinition.Hooks.Teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 261576100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter username as \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 20
+                }
+              ],
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 177799700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter password as \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 20
+                }
+              ],
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3195996100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I clicked on login button",
+            "match": {
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_clicked_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52547000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should get the error message as \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 34
+                }
+              ],
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_should_get_the_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Browser"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 452974000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the swag application",
+            "match": {
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_have_launched_the_swag_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45757400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should land on home page",
+            "match": {
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_should_land_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-22T09:49:30.488Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1323191800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SwagStepDefinition.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Validate the Login failure scenario using examples",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-login-functionality-of-swaglabs-application;validate-the-login-failure-scenario-using-examples;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 301437500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SwagStepDefinition.Hooks.Teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 172628100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter username as \"locked_out_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"locked_out_user\"",
+                  "offset": 20
+                }
+              ],
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160113200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 20
+                }
+              ],
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3159997500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I clicked on login button",
+            "match": {
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_clicked_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57180800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should get the error message as \"Epic sadface: Sorry, this user has been locked out.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Sorry, this user has been locked out.\"",
+                  "offset": 34
+                }
+              ],
+              "location": "SwagStepDefinition.SwagLoginSteDefs.i_should_get_the_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Browser"
+          }
+        ]
+      }
+    ],
+    "name": "This feature will be used to test the login functionality of SwagLabs Application",
+    "description": "",
+    "id": "this-feature-will-be-used-to-test-the-login-functionality-of-swaglabs-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/SwagFeatures/swaglogin.feature",
+    "tags": [
+      {
+        "name": "@Browser",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

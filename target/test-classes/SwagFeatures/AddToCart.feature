@@ -1,3 +1,4 @@
+@Browser
 Feature: This feature will be used to validate the product addef to cart in SwagLabs Application
 
   Background: 

@@ -1,3 +1,4 @@
+@Browser
 Feature: This feature will be used to test the login functionality of SwagLabs Application
 
   Background: 
